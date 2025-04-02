@@ -1,7 +1,6 @@
 
 import axios from "axios";
 import fs from 'react'
-const OPENAI_API_KEY = "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"; // Replace with your actual API key
 export const openaiAudioTranscription = async (audioPath: string): Promise<string> => {
   try {
     // Read the audio file as base64
